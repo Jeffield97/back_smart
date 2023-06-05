@@ -4,7 +4,6 @@ const sequelize = require('../utils/connection');
 const Habitacion = sequelize.define('habitacion', {
     numero: {
         type: DataTypes.SMALLINT,
-        unique:true,
         allowNull: false
     },
     costo: {
